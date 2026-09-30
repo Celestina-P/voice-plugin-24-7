@@ -1,0 +1,11 @@
+# Token của bot (Discord Developer Portal -> Bot -> Reset Token)
+token: "DAN_TOKEN_BOT_VAO_DAY"
+
+# ID kênh voice muốn bot treo (chuột phải kênh -> Copy Channel ID, cần bật Developer Mode)
+voice-channel-id: "000000000000000000"
+
+# Bot tự tắt tai nghe (deafen) khi vào voice
+self-deafen: true
+
+# Chu kỳ kiểm tra & vào lại kênh nếu bị rớt (giây)
+check-interval-seconds: 30

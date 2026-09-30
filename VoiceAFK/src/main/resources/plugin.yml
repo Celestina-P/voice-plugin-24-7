@@ -1,0 +1,7 @@
+name: VoiceAFK
+version: '${project.version}'
+main: com.example.voiceafk.VoiceAFK
+api-version: '1.21'
+description: Bot Discord treo voice 24/7
+libraries:
+  - net.dv8tion:JDA:5.2.1
