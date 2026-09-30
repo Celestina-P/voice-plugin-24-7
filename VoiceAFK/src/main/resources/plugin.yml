@@ -4,4 +4,6 @@ main: com.example.voiceafk.VoiceAFK
 api-version: '1.21'
 description: Bot Discord treo voice 24/7
 libraries:
-  - net.dv8tion:JDA:5.2.1
+  - net.dv8tion:JDA:6.5.0
+  - club.minnced:jdave-api:0.1.8
+  - club.minnced:jdave-native-linux-x86-64:0.1.8
