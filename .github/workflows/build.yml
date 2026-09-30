@@ -14,8 +14,10 @@ jobs:
           distribution: temurin
           java-version: 21
           cache: maven
+          cache-dependency-path: VoiceAFK/pom.xml
       - run: mvn -B package
+        working-directory: VoiceAFK
       - uses: actions/upload-artifact@v4
         with:
           name: VoiceAFK
-          path: target/*.jar
+          path: VoiceAFK/target/*.jar
