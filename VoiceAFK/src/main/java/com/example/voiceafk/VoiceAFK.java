@@ -81,7 +81,7 @@ public class VoiceAFK extends JavaPlugin {
         am.setSelfDeafened(selfDeafen);
 
         // Đang kết nối thì đừng gọi lại
-        if (am.isAttemptingToConnect()) return;
+        if (am.getConnectionStatus().name().startsWith("CONNECTING")) return;
 
         boolean inRightChannel = am.isConnected()
                 && am.getConnectedChannel() != null
